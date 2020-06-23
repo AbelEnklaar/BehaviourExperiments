@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\abel-\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\abel-\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Boids 3D.879518272.00" t="ExcludeRecursive" />
+    <e p="D:\abel-\Documents\DFPI\0Pathway 2\Term3\Unity experiments\Boids 3D" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Editor" t="Include">
+          <e p="CompositeBehaviourEditor.cs" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Behaviour Scripts" t="Include">
+            <e p="AllignmentBehaviour.cs" t="Include" />
+            <e p="AvoidanceBehaviour.cs" t="Include" />
+            <e p="CohesionBehaviour.cs" t="Include" />
+            <e p="CompositeBehaviour.cs" t="Include" />
+            <e p="StayInRadiusBehaviour.cs" t="Include" />
+            <e p="SteeredCohesionBehaviour.cs" t="Include" />
+          </e>
+          <e p="CameraRotate.cs" t="Include" />
+          <e p="ContextFilter.cs" t="Include" />
+          <e p="Filter Scripts" t="Include">
+            <e p="PhysicsLayerFilter.cs" t="Include" />
+            <e p="SameFlockFilter.cs" t="Include" />
+          </e>
+          <e p="FilteredFlockBehaviour.cs" t="Include" />
+          <e p="Flock.cs" t="Include" />
+          <e p="FlockAgent.cs" t="Include" />
+          <e p="FlockBehaviour.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Boids 3D.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
