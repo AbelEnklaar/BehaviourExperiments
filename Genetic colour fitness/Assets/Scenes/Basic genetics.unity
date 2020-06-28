@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75d12fa17d4e78140bea602f1eea32dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colourTransitionTime: 5
+  colourTransitionTime: 30
 --- !u!64 &413078673
 MeshCollider:
   m_ObjectHideFlags: 0

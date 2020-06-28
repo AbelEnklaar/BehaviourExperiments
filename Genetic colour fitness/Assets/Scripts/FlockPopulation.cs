@@ -64,6 +64,7 @@ public class FlockPopulation : MonoBehaviour
             float fitness = EvaluateFitness(environment.GetComponent<MeshRenderer>().material.color,
                 population[i].GetComponent<MeshRenderer>().material.color);
             population[i].fitnessScore = fitness;
+            population[i].Growth();
         }
 
         // sort 
@@ -88,9 +89,13 @@ public class FlockPopulation : MonoBehaviour
         {
             Destroy(population[i].gameObject);
             population[i] = null;
+           
+            
+            
         }
 
         population.RemoveRange(halfPoint, population.Count - halfPoint);
+       
         
     // breed
     
@@ -228,7 +233,7 @@ public class FlockPopulation : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(0.1f); 
+            yield return new WaitForSeconds(2f); 
             EvaluatePopulation();
         }
     }
